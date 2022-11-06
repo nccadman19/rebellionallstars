@@ -214,6 +214,72 @@ footer {
     content: "";
     clear: both;
     display: table;
-  }
+  }    
 
-/* ----------------------------------- Booking */
+  /* --------------------------- Media Queries */
+
+  @media screen and (max-width: 1396px){
+    #main-page{
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #main-text {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #logo {
+        width:100%;
+        float:left;
+        padding: 0;
+    }
+
+    #logo-text {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    #nav {
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 943px){
+
+    #main-page{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #main-text{
+        left:0px;
+    }
+
+    #logo {
+        width:100%;
+        float:left;
+        padding: 0;
+    }
+
+    #logo-text {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    #nav {
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+    }
+
+
+}

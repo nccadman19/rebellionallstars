@@ -3,6 +3,8 @@
 
 #### This is my first project and I am very worried on how this is going to turn out! 
 
+##### This project is for my cheerleading team, it provides extra credibility for the team by having an online presence in website. We also currently pay a website booking service a monthly subscription to book classes but by having our own website to do this we would save money. 
+
 Href links copied from nccadman19/resume-project/index.html
 
 Menu column list taken from resume project
@@ -11,7 +13,7 @@ I'm already losing my mind trying to get the top row of items to sit flush to th
 
 Issues: 
 
-Cannot get hero image to fill the screen! 
+Cannot get hero image to fill the screen on full screen version! 
 Tried margin 0 on body and section 
 Added width 100% to hero img 
 
@@ -36,3 +38,6 @@ Couldnt get ihead coach image to shrink in css file so did it with style in html
 
 Booking form template, I've never created a booking form and definitely needed help with this 
 https://www.w3docs.com/tools/editor/5943
+
+Got help with media queries from: 
+https://getbootstrap.com/docs/5.2/layout/breakpoints/#media-queries
