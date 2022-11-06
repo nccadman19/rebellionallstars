@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*--------------------------------------------Special Padding */
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*--------------------------------------------Heading */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 350;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #95be99;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: #a2bda5;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 95px;
+    text-align: center;
+    width: 150px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #95be99;
+    height: 120px;
+}
+
+.menuitem a i {
+    display: block;
+    color: #95be99;
+    font-size: 1.5rem;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------------Hover.css*/
+
+.menuitem a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #95be99;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  
+  .menuitem a:hover::after {
+    transform: scaleX(1);
+  }
+
+/* ----------------------------------------Section 1 */
+
+.background-image {
+    width: 100%;
+    height: 30rem;
+    opacity: 0.75;
+    margin: 0;
+}
+
+/* Container holding the image and the text */
+
+.container-full {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+.text-block {
+    position:absolute;
+    bottom: 40px;
+    right: 40px;
+    background-color: #95be99;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+    font-family: "Exo", sans-serif;
+  }
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #95be99;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #05420d;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+/* --------------------------------About Us*/
+
+.background-image-aboutus {
+    width: 100%;
+    min-height: 300px;
+    opacity: 0.75;
+    margin: 0;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* ----------------------------------- Booking */

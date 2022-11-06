@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact us</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+      * {
+      box-sizing: border-box;
+      }
+      html, body {
+      min-height: 100vh;
+      padding: 0;
+      margin: 0;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px; 
+      color: #666;
+      }
+      input, textarea { 
+      outline: none;
+      }
+      body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background: #ffffff;
+      }
+      h1 {
+      margin-top: 0;
+      font-weight: 500;
+      color: #fff;
+      }
+      form {
+      position: relative;
+      width: 80%;
+      border-radius: 30px;
+      background: #95be99;
+      }
+      .form-left-decoration,
+      .form-right-decoration {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 20px;
+      background: #95be99;
+      }
+      .form-left-decoration {
+      bottom: 60px;
+      left: -30px;
+      }
+      .form-right-decoration {
+      top: 60px;
+      right: -30px;
+      }
+      .form-left-decoration:before,
+      .form-left-decoration:after,
+      .form-right-decoration:before,
+      .form-right-decoration:after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 30px;
+      background: #fff;
+      }
+      .form-left-decoration:before {
+      top: -20px;
+      }
+      .form-left-decoration:after {
+      top: 20px;
+      left: 10px;
+      }
+      .form-right-decoration:before {
+      top: -20px;
+      right: 0;
+      }
+      .form-right-decoration:after {
+      top: 20px;
+      right: 10px;
+      }
+      .circle {
+      position: absolute;
+      bottom: 80px;
+      left: -55px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #fff;
+      }
+      .form-inner {
+      padding: 40px;
+      }
+      .form-inner input,
+      .form-inner textarea {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 20px;
+      background: #d0dfe8;
+      }
+      .form-inner textarea {
+      resize: none;
+      }
+      button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 20px;
+      border: none;
+      border-bottom: 4px solid #95be99;
+      background: #95be99;
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      }
+      button:hover {
+      background: #465a48;
+      } 
+      @media (min-width: 568px) {
+      form {
+      width: 60%;
+      }
+      }
+    
+      .container-full {
+    position: relative;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+        <div class="row no-gutters">
+            <img class="col-md-2 logo" src="assets/images/logo.png" style="height:200px;">
+            <div class="col-md-4 heading">
+                <h1 class="name">Rebellion Allstars</h1>
+                <h2 class="title">Competitive Cheerleading</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-6">
+                    <ul id="nav" class="list-inline menucontainer">
+                        <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
+                            <a href="index.html" class="menuitem"><span>Home</span></a>
+                        </li>
+                        <li class="col-6 col-sm-3 list-inline-item ui-menu-color-aboutus menuitem">
+                            <a href="about.html" class="menuitem"><span>About</span></a>
+                        </li>
+                        <li class="col-6 col-sm-3 list-inline-item ui-menu-color-book menuitem">
+                            <a href="book.html" class="menuitem"><span>Book</span></a>
+                        </li>
+                        <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
+                            <a href="contact.html" class="menuitem"><span>Contact</span></a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-full col-md-12">
+            <form action="/" class="decor">
+            <div class="form-left-decoration"></div>
+            <div class="form-right-decoration"></div>
+            <div class="circle"></div>
+            <div class="form-inner">
+            <h1>Contact us</h1>
+            <input type="text" placeholder="Username">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message..." rows="5"></textarea>
+            <button type="submit" href="/">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">About</h5>
+                <p class="inline-block">
+                    We have been running for 4 years and we are starting the 5 season September 2022. Come join us!
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Schedule</h5>
+                <p class="inline-block">
+                    We train everyday of the week (depending on the team) and run a recreational session every Sunday at 6:00 - 8:00pm at CCYC, Cardiff.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub social-links">Socials</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/100044911604335/">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/rebellioncheer">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.YouTube.com/nicolecadmannn">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
